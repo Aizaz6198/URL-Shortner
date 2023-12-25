@@ -64,3 +64,8 @@ Replace your-username, your-password, and your-database with your actual MongoDB
 npm start
 
 Open your browser and visit <http://localhost:3000> to access the URL Shortener.
+
+
+### deployement link:
+
+https://url-shortner-vzvv.onrender.com
