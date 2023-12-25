@@ -5,8 +5,7 @@ A simple URL shortener microservice built with Node.js, Express, and MongoDB.
 
 ## Table of Contents
 
-- [URL Shortener Node.js App](#url-shortener-nodejs-app)
-  - [Table of Contents](#table-of-contents)
+
   - [Overview](#overview)
   - [Features](#features)
   - [Getting Started](#getting-started)
@@ -40,11 +39,11 @@ Make sure you have the following installed:
 
 1. Clone the repository:
 
-   git clone <https://github.com/your-username/url-shortener-node.git>.
+   git clone <https://github.com/Aizaz6198/URL-Shortner.git>.
 
 2. Change into the project directory:
 
-   cd url-shortener-node
+   cd URL-Shortner
 
 3. Install dependencies:
 
