@@ -2,36 +2,52 @@
 <html lang="en">
 
 <head>
+  <!-- Set the character set and viewport for better rendering -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Set the title of the page -->
   <title>URL Shortener</title>
+  <!-- Link to the external stylesheet for styling -->
   <link href="/public/style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
 
   <header>
+    <!-- Page header with a title styled in Google's brand color -->
     <h1 style="color: #4285f4;">URL Shortener</h1>
   </header>
 
   <main>
+    <!-- Main content area -->
+
+    <!-- Container with a border and background color -->
     <div id="div" style="border: 3px solid #4285f4; background-color: #f0f5ff;">
 
+      <!-- Section for the URL shortening form -->
       <section>
 
+        <!-- URL shortening form with styling -->
         <form class="form" action="api/shorturl" method="POST">
           <fieldset style="border: 2px solid #4285f4;">
+            <!-- Legend for the form with Google's brand color -->
             <legend style="color: #4285f4;">URL Shortener</legend>
+            <!-- Label for the URL input field with Google's brand color -->
             <label for="url_input" style="color: #4285f4;">URL:</label>
+            <!-- Input field for entering the URL with styling -->
             <input id="url_input" type="text" name="url" placeholder="Enter your URL: http://www.xyz.abc" style="border: 1px solid #4285f4; color: #4285f4;" />
+            <!-- Submit button with styling -->
             <input type="submit" value="POST URL" style="background-color: #4285f4; color: #fff;" />
           </fieldset>
         </form>
       </section>
 
+      <!-- Section for displaying an example of URL usage -->
       <section>
         <fieldset class="form" style="border: 2px solid #4285f4;">
+          <!-- Legend for the example usage section with Google's brand color -->
           <legend style="color: #4285f4;">Example Usage</legend>
+          <!-- Example usage text with Google's brand color -->
           <h4 style="color: #4285f4;">You can use the shorter version of URL as: http://localhost:3000/api/short_url</h4>
         </fieldset>
       </section>
