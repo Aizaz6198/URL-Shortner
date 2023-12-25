@@ -1,0 +1,66 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  color: #333;
+  background-color: #f4f4f4;
+  text-align: center;
+  line-height: 1.6em;
+}
+
+main {
+  padding: 20px;
+  margin-top: 60px;
+}
+
+h1 {
+  font-size: 72px;
+  margin-top: 10%;
+  color: #4285f4;
+}
+
+#div {
+  border: 3px solid #4285f4;
+  margin-top: 5%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-stories li {
+  margin-bottom: 1.5em;
+}
+
+a {
+  color: #ea4335;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.form {
+  margin: 20px auto;
+  padding: 30px;
+  max-width: 500px;
+  background-color: #fff;
+  border-radius: 10px; 
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); 
+}
+
+label {
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: block; 
+  margin: 0 auto;
+  
+}
+
+input[type='text'] {
+  width: 90%;
+  text-align: center;
+}

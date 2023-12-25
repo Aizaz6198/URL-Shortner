@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>URL Shortener</title>
+  <link href="/public/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <header>
+    <h1 style="color: #4285f4;">URL Shortener</h1>
+  </header>
+
+  <main>
+    <div id="div" style="border: 3px solid #4285f4; background-color: #f0f5ff;">
+
+      <section>
+
+        <form class="form" action="api/shorturl" method="POST">
+          <fieldset style="border: 2px solid #4285f4;">
+            <legend style="color: #4285f4;">URL Shortener</legend>
+            <label for="url_input" style="color: #4285f4;">URL:</label>
+            <input id="url_input" type="text" name="url" placeholder="Enter your URL: http://www.xyz.abc" style="border: 1px solid #4285f4; color: #4285f4;" />
+            <input type="submit" value="POST URL" style="background-color: #4285f4; color: #fff;" />
+          </fieldset>
+        </form>
+      </section>
+
+      <section>
+        <fieldset class="form" style="border: 2px solid #4285f4;">
+          <legend style="color: #4285f4;">Example Usage</legend>
+          <h4 style="color: #4285f4;">You can use the shorter version of URL as: http://localhost:3000/api/short_url</h4>
+        </fieldset>
+      </section>
+    </div>
+
+  </main>
+
+</body>
+
+</html>
